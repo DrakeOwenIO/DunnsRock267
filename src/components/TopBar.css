@@ -1,0 +1,16 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    height: 60px;           /* Adjust height as needed */
+    font-size: 24px;       /* Adjust font size as needed */
+    font-weight: bold;      /* Make the text bold */
+    color: #908d96;           /* Text color */
+  }
+  
+  .line {
+    flex: 1;               /* Take up remaining space */
+    height: 2px;          /* Line thickness */
+    background-color: #333; /* Line color */
+    margin: 0 10px;       /* Space between lines and text */
+  }
