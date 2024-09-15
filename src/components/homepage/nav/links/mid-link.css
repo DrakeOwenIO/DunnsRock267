@@ -1,2 +1,13 @@
-.link-bottom-middle {
+.bottom-container {
+  width: 100%;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  margin-right: 3%;
 }

@@ -4,6 +4,7 @@ import LeftLinks from "./nav/links/left-links";
 import RightLinks from "./nav/links/right-links";
 import NavImage from "./nav/NavImage";
 import Meetings from "./misc-text/Meetings";
+import MidLink from "./nav/links/mid-link";
 
 function Homepage() {
   return (
@@ -24,6 +25,9 @@ function Homepage() {
       </span>
       <div className="meetings-container">
         <Meetings />
+      </div>
+      <div className="bottom-links">
+        <MidLink />
       </div>
     </div>
   );
