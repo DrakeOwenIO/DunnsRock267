@@ -61,6 +61,7 @@
 
 /* individual link styles */
 .link {
+  text-align: center;
   position: absolute;
   margin: 10px 0; /* Space between links */
   text-decoration: none; 
@@ -94,7 +95,7 @@
 }
 
 .link-bottom-middle {
-  transform: translate(37%, -320%); 
+  transform: translate(14%, -320%); 
   right: 20%; 
   top: 75%;
 }
