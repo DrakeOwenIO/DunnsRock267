@@ -1,0 +1,11 @@
+.link-top-left {
+    transform: translate(-100%, -600%); 
+    left: 5%; 
+    top: 0; 
+  }
+
+  .link-bottom-left {
+    transform: translate(-130%, -350%); 
+    right: 20%; 
+    top: 25%;
+  }

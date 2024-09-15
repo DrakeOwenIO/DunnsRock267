@@ -1,3 +1,0 @@
-- Add dynamic scaling and hamburger menu for mobile (S&C stays and resizes while the list goes into the side menu)
-- Add meeting night (2nd and 4th Thurday @ 7Pm below the Nav)
-- test change

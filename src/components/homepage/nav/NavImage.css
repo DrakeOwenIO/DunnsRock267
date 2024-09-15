@@ -48,62 +48,6 @@
   z-index: 1; /* Bring the image above the spotlight */
 }
 
-/* Container for links */
-.links {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
-/* individual link styles */
-.link {
-  text-align: center;
-  position: absolute;
-  margin: 10px 0; /* Space between links */
-  text-decoration: none; 
-  color: #908d96; 
-  font-size: 2.9vw; 
-  transition: color 0.3s; 
-}
-
-.link-top-left {
-  transform: translate(-100%, -600%); 
-  left: 5%; 
-  top: 0; 
-}
-
-.link-bottom-right {
-  transform: translate(115%, -330%); 
-  right: 20%; 
-  top: 25%; 
-}
-
-.link-top-right {
-  transform: translate(120%, -600%); 
-  left: 50%;
-  top: 0;
-}
-
-.link-bottom-left {
-  transform: translate(-130%, -350%); 
-  right: 20%; 
-  top: 25%;
-}
-
-.link-bottom-middle {
-  transform: translate(14%, -320%); 
-  right: 20%; 
-  top: 75%;
-}
-
-.link:hover {
-  color: #b8860b; /* Change color on hover (use an accent color) */
-}
-
 .spotlight {
   width: 300px; /* Width of the spotlight */
   height: 300px; /* Height of the spotlight */

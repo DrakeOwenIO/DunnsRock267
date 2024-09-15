@@ -1,24 +1,8 @@
 import "./App.css";
-import TopBar from "./components/TopBar";
-import Nav from "./components/Nav";
-import Meetings from "./components/Meetings";
+import Homepage from "./components/homepage/Homepage";
 
 function App() {
-  return (
-    <div className="App">
-      <div classname="container">
-        <div className="topbar-component">
-          <TopBar />
-        </div>
-        <div classname="nav-component">
-          <Nav />
-        </div>
-        <div className="meetings-component">
-          <Meetings />
-        </div>
-      </div>
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;

@@ -1,0 +1,15 @@
+.link-bottom-right {
+  transform: translate(115%, -330%);
+  right: 20%;
+  top: 25%;
+}
+
+.link-top-right {
+  transform: translate(120%, -600%);
+  left: 50%;
+  top: 0;
+}
+
+.link:hover {
+  color: #b8860b; /* Change color on hover (use an accent color) */
+}
