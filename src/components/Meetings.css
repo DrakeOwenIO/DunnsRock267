@@ -1,0 +1,15 @@
+.meetings-component {
+    position: relative;
+    top: 70%; /* Adjust this value as needed to ensure spacing */
+    left: 50%;
+    text-align: center;
+    color: #908d96;
+    animation: fadeIn 1s ease-in; /* Apply fade-in animation */
+    margin-top: 20%;
+    height: 10vh;
+  }
+  
+  h1 {
+    font-size: 3.5vh;
+    text-align: center;
+  }
