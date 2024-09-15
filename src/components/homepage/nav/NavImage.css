@@ -47,14 +47,3 @@
   display: block;
   z-index: 1; /* Bring the image above the spotlight */
 }
-
-.spotlight {
-  width: 300px; /* Width of the spotlight */
-  height: 300px; /* Height of the spotlight */
-  border-radius: 50%; /* Make it a circle */
-  background: radial-gradient(
-    circle,
-    #908d96 0%,
-    rgba(144, 141, 150, 0) 70%
-  ); /* Radial gradient */
-}
