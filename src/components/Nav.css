@@ -1,92 +1,115 @@
 @keyframes fadeIn {
-    from {
-      opacity: 0; /* Start fully transparent */
-    }
-    to {
-      opacity: 1; /* End fully opaque */
-    }
+  from {
+    opacity: 0; /* Start fully transparent */
   }
+  to {
+    opacity: 1; /* End fully opaque */
+  }
+}
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    height: 100vh; 
-    animation: fadeIn 1s ease-in; /* Apply fade-in animation */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start;
+  height: 100vh;
+  animation: fadeIn 1s ease-in; /* Apply fade-in animation */
+}
 
-  .image-container {
-    position: relative; /* Enable absolute positioning for links */
-  }
+.image-container {
+  position: relative;
+  width: 30vw; /* Width relative to viewport width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 5vh; /* Margin to give space below the image */
+}
 
-  .image-container::before {
-    content: ''; /* Required for pseudo-elements */
-    position: absolute; /* Position it absolutely */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    width: 600px; /* Width of the spotlight effect */
-    height: 600px; /* Height of the spotlight effect */
-    border-radius: 50%; /* Make it a circle */
-    background: radial-gradient(circle, rgba(128, 0, 0, 0.5) 0%, rgba(144, 141, 150, 0) 70%); /* Radial gradient */
-    transform: translate(-50%, -75%); /* Center the spotlight */
-    z-index: 0; /* Send it to the back */
-  }
-  
-  .masonic-image {
-    width: 500px; /* Adjust the size of the image as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space between the image and links */
-    z-index: 1; /* Bring the image above the spotlight */
-  }
-  
-  .links {
-    display: flex;
-    flex-direction: column; /* Stack links vertically */
-    align-items: center; /* Center links */
-    z-index: 2; /* Bring the links above the spotlight */
-  }
-  
-  .link {
-    margin: 10px 0; /* Space between links */
-    text-decoration: none; /* Remove underline */
-    color: #908d96; /* Text color */
-    font-size: 60px; /* Adjust font size */
-    transition: color 0.3s; /* Smooth color transition */
-  }
+.image-container::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute; /* Position it absolutely */
+  margin-top: 15vh;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  width: 50vh; /* Width of the spotlight effect */
+  height: 50vh; /* Height of the spotlight effect */
+  border-radius: 50%; /* Make it a circle */
+  background: radial-gradient(
+    circle,
+    rgba(128, 0, 0, 0.5) 0%,
+    rgba(144, 141, 150, 0) 70%
+  ); /* Radial gradient */
+  transform: translate(-50%, -75%); /* Center the spotlight */
+  z-index: 0; /* Send it to the back */
+}
 
-  .link-top-left {
-    transform: translate(-100%, -465%); /* Move to the left point */
-    left: 25%; /* Adjust as necessary */
-    top: 15%; /* Adjust as necessary */
-  }
-  
-  .link-bottom-right {
-    transform: translate(85%, -490%); /* Move to the right point */
-    right: 25%; /* Adjust as necessary */
-    top: 15%; /* Adjust as necessary */
-  }
-  
-  .link-top-right {
-    transform: translate(120%, -590%); /* Move to the top point */
-    left: 50%;
-    top: 5%; /* Adjust as necessary */
-  }
-  
-  .link-bottom-left {
-    transform: translate(-90%, -375%); /* Move to the bottom point */
-    left: 50%;
-    bottom: 5%; /* Adjust as necessary */
-  }
-  
-  .link:hover {
-    color: #B8860B; /* Change color on hover (use an accent color) */
-  }
+.masonic-image {
+  width: 100%; /* Adjust the size of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  z-index: 1; /* Bring the image above the spotlight */
+}
 
-  .spotlight {
-    width: 300px; /* Width of the spotlight */
-    height: 300px; /* Height of the spotlight */
-    border-radius: 50%; /* Make it a circle */
-    background: radial-gradient(circle, #908d96 0%, rgba(144, 141, 150, 0) 70%); /* Radial gradient */
-  }
-  
+/* Container for links */
+.links {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* individual link styles */
+.link {
+  position: absolute;
+  margin: 10px 0; /* Space between links */
+  text-decoration: none; 
+  color: #908d96; 
+  font-size: 2.9vw; 
+  transition: color 0.3s; 
+}
+
+.link-top-left {
+  transform: translate(-100%, -600%); 
+  left: 5%; 
+  top: 0; 
+}
+
+.link-bottom-right {
+  transform: translate(115%, -330%); 
+  right: 20%; 
+  top: 25%; 
+}
+
+.link-top-right {
+  transform: translate(120%, -600%); 
+  left: 50%;
+  top: 0;
+}
+
+.link-bottom-left {
+  transform: translate(-130%, -350%); 
+  right: 20%; 
+  top: 25%;
+}
+
+.link-bottom-middle {
+  transform: translate(13%, -320%); 
+  right: 20%; 
+  top: 75%;
+}
+
+.link:hover {
+  color: #b8860b; /* Change color on hover (use an accent color) */
+}
+
+.spotlight {
+  width: 300px; /* Width of the spotlight */
+  height: 300px; /* Height of the spotlight */
+  border-radius: 50%; /* Make it a circle */
+  background: radial-gradient(
+    circle,
+    #908d96 0%,
+    rgba(144, 141, 150, 0) 70%
+  ); /* Radial gradient */
+}

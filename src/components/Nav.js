@@ -24,6 +24,9 @@ const Nav = () => {
           <a href="/photogallery" className="link link-bottom-right">
             Photo Gallery
           </a>
+          <a href="/photogallery" className="link link-bottom-middle">
+            Additional Readings
+          </a>
         </div>
       </div>
     </div>
