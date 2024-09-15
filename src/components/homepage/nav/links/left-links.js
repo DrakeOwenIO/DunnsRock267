@@ -1,16 +1,20 @@
 import "./left-links.css";
 
-const RightLinks = () => {
+const LeftLinks = () => {
   return (
-    <div className="links">
-      <a href="/newsletters" className="link link-top-left">
-        Newsletters
-      </a>
-      <a href="/officers" className="link link-top-right">
-        Officers
-      </a>
+    <div className="left-parent">
+      <div className="link-top-left">
+        <a href="/newsletters" className="link link-top-left">
+          Newsletters
+        </a>
+      </div>
+      <div className="link-bottom-left">
+        <a href="/officers" className="link link-top-right">
+          Officers
+        </a>
+      </div>
     </div>
   );
 };
 
-export default RightLinks;
+export default LeftLinks;

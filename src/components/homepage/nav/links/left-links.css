@@ -1,11 +1,9 @@
-.link-top-left {
-    transform: translate(-100%, -600%); 
-    left: 5%; 
-    top: 0; 
-  }
+.left-parent {
+}
 
-  .link-bottom-left {
-    transform: translate(-130%, -350%); 
-    right: 20%; 
-    top: 25%;
-  }
+.link-top-left {
+  margin-bottom: 50%;
+}
+
+.link-bottom-left {
+}

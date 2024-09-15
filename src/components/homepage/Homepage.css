@@ -1,8 +1,42 @@
-.container {
-    width: auto;
-    height: auto; 
-  }
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .header {
-    width: 100%;
+  width: 100%;
+}
+
+.inline-nav {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+
+.link {
+  color: #908d96;
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #b8860b; /* Change color on hover (use an accent color) */
+}
+
+.left-links {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.right-links {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.meetings-container {
 }

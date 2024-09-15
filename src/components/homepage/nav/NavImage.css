@@ -7,20 +7,17 @@
   }
 }
 
-.container {
+.nav-container {
   display: flex;
-  flex-direction: column;
   align-items: center; /* Center horizontally */
-  justify-content: flex-start;
-  height: 50vh;
   animation: fadeIn 1s ease-in; /* Apply fade-in animation */
+  padding: 2%;
 }
 
 .image-container {
   position: relative;
   width: 30vw; /* Width relative to viewport width */
   height: auto; /* Maintain aspect ratio */
-  margin-bottom: 5vh; /* Margin to give space below the image */
 }
 
 .image-container::before {

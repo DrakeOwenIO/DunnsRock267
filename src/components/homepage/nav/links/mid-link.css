@@ -1,9 +1,2 @@
 .link-bottom-middle {
-  transform: translate(14%, -320%);
-  right: 20%;
-  top: 75%;
-}
-
-.link:hover {
-  color: #b8860b; /* Change color on hover (use an accent color) */
 }

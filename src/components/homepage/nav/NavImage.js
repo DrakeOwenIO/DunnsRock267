@@ -4,7 +4,7 @@ import SquareAndCompass from "../../../imgs/NavImage2.svg";
 
 const NavImage = () => {
   return (
-    <div className="container">
+    <div className="nav-container">
       <div className="image-container">
         <img
           src={SquareAndCompass}

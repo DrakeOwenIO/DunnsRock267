@@ -3,8 +3,10 @@ import "./Meetings.css";
 
 const Meetings = () => {
   return (
-    <div className="meeting-container">
-      <h1>Meetings 2nd and 4th Thursday @ 7pm. Meal @ 6pm.</h1>
+    <div className="meeting-parent">
+      <div className="meeting-child">
+        Meetings 2nd and 4th Thursday @ 7pm. Meal @ 6pm.
+      </div>
     </div>
   );
 };
