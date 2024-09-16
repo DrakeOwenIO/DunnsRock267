@@ -1,9 +1,14 @@
 .right-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .link-top-right {
   margin-bottom: 50%;
+  width: 100%;
 }
 
 .link-bottom-right {
+  width: 100%;
 }

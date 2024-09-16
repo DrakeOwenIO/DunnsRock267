@@ -1,4 +1,7 @@
 .left-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .link-top-left {
