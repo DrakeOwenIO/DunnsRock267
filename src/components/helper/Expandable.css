@@ -1,0 +1,36 @@
+.expandable-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.expandable-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.expandable-header:hover {
+  background-color: #0056b3;
+}
+
+.expandable-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+.expandable-content.open {
+  max-height: 500px; /* Arbitrary large number to expand smoothly */
+}
+
+.expandable-content p {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
