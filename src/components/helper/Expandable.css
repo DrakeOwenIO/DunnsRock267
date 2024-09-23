@@ -28,6 +28,7 @@
 
 .expandable-content.open {
   max-height: 500px; /* Arbitrary large number to expand smoothly */
+  color: #908d96;
 }
 
 .expandable-content p {
