@@ -7,10 +7,10 @@ const MidLink = () => {
         <a href="/Readings" className="link">
           Additional Readings
         </a>
-        <a href="/Readings" className="link">
+        <a href="/events" className="link">
           Upcoming Events
         </a>
-        <a href="/Readings" className="link">
+        <a href="/contact" className="link">
           Contact Us
         </a>
       </div>

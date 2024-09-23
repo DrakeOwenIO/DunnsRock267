@@ -1,0 +1,18 @@
+.ContactContainer{
+    color: #908d96;
+}
+
+.ContactTitle {
+    margin-left: 20%;
+    text-decoration: underline;
+}
+
+.ContactBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.ContactBody {
+
+}

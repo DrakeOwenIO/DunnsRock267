@@ -10,9 +10,9 @@ const LeftLinks = () => {
         </Link>
       </div>
       <div className="link-bottom-left">
-        <a href="/officers" className="link link-top-right">
+        <Link className="link link-bottom-left" to="/officers">
           Officers
-        </a>
+        </Link>
       </div>
     </div>
   );

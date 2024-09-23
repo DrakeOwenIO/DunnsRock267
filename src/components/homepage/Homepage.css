@@ -25,7 +25,7 @@
 
 .link:hover {
   text-decoration: underline;
-  color: #b8860b; /* Change color on hover (use an accent color) */
+  color: #b8860b;
 }
 
 .left-links {
