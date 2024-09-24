@@ -1,11 +1,12 @@
 .expandable-container {
+  padding-top: 2rem;
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
 }
 
 .expandable-header {
-  background-color: #007bff;
+  background-color: #908d96;
   color: white;
   padding: 10px;
   cursor: pointer;
@@ -17,7 +18,7 @@
 }
 
 .expandable-header:hover {
-  background-color: #0056b3;
+  background-color: #908d9695;
 }
 
 .expandable-content {
@@ -33,5 +34,4 @@
 
 .expandable-content p {
   padding: 10px;
-  background-color: #f1f1f1;
 }
