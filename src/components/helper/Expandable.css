@@ -24,11 +24,11 @@
 .expandable-content {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.5s ease-out;
+  transition: max-height 1s ease-out;
 }
 
 .expandable-content.open {
-  max-height: 500px; /* Arbitrary large number to expand smoothly */
+  max-height: fit-content;
   color: #908d96;
 }
 
