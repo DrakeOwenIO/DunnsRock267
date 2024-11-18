@@ -1,0 +1,5 @@
+Worshipful Brother Waightstill Avery Gash
+
+Waightstill Avery Gash was born in Henderson County (now Transylvania County) N. C. on January 15th 1850. He was an attorney and practiced in Transylvania County his entire life. He was the primary attorney for George Vanderbilt in matters within the county. Brother Gash was initiated in Dunn’s Rock Lodge on December 18th 1874, passed on January 2nd 1875 and was raised to the Sublime Degree on January 15th 1875.Brother Gash was the fifth Master of Dunn’s Rock Lodge. 
+
+He was installed as Master for his first term on June 29th 1877 and served until July 12th 1878 where upon he was re-elected Master and served from July 12th 1878 until June 24th 1879. One year later he was again elected Master and installed on June 24th 1880 and served until the next Master was installed on June 24th 1881. He passed away on July 3rd 1906 and was buried in the Episcopal Church Cemetery

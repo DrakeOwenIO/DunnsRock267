@@ -35,3 +35,13 @@
 .expandable-content p {
   padding: 10px;
 }
+
+.expandable-image {
+  float: left;
+  max-width: 100%;
+  max-height: 200px;
+  height: auto;
+  padding-top: 30px;
+  padding-right: 10px;
+  display: block;
+}

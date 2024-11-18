@@ -1,0 +1,7 @@
+Worshipful Brother Thomas S. Wood
+
+Thomas S. Wood was born in Henderson (now Transylvania) County N.C. on May 5th 1843. He was initiated an Entered Apprentice on June 26th 1874, passed to the degree of Fellow Craft on July 24th 1874 and raised to the Sublime Degree on September 25th 1874 in Dunn’s Rock Lodge. He became the sixth Master of Dunn’s Rock Lodge on June 24th 1881 and served five consecutive terms ending on June 24th 1885. 
+
+He was again elected Master and installed on June 24th 1887 and served two consecutive terms ending on June 24th 1889. One year later he was elected Master again he was installed on June 24th 1890 where upon he served an impressive five terms ending on July 5th 1895. On July 24th of 1896 he was installed as Master once more and served two more terms which ended on July 20th 1898. His last two terms as Master were from July of 1899 until July of 1900 and from July of 1901 until July of 1902 respectively. Worshipful Brother Wood has the distinction of serving as Master for more terms than anyone in the history of Dunn’s Rock Lodge. All totaled he spent sixteen years as Master of Dunn’s Rock Lodge. Quite a feat in anyone’s book! 
+
+At this early stage of our Past Masters Project we have not been able to compile much more information about Worshipful Brother Wood except that he passed away on August 25th 1923 and was buried in Gillespie’s Evergreen Cemetery. We will continue to research our Past Masters and update the biographies as information becomes available.

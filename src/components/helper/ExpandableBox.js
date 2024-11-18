@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import "./Expandable.css"; 
 
-const ExpandableBox = ({ markdownFile, fileName }) => {
+const ExpandableBox = ({ markdownFile, fileName, imageSrc }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [markdownContent, setMarkdownContent] = useState("");
 
@@ -29,6 +29,7 @@ const ExpandableBox = ({ markdownFile, fileName }) => {
 
       {/* Content that expands/collapses */}
       <div className={`expandable-content ${isOpen ? "open" : ""}`}>
+       {imageSrc && <img src={imageSrc} alt={fileName} className="expandable-image" />}
         {isOpen && <ReactMarkdown>{markdownContent}</ReactMarkdown>}
       </div>
     </div>
