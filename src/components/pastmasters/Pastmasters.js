@@ -9,14 +9,15 @@ import DesSortImg from "../../imgs/des_sort_icon.png";
 const Pastmasters = () => {
 
 
-  const svPickens = "/MarkdownData/PMData/Bios/SVPickens.md";
+    const svPickens = "/MarkdownData/PMData/Bios/SVPickens.md";
     const tlGash = "/MarkdownData/PMData/Bios/TLGash.md";
     const bcLankford = "/MarkdownData/PMData/Bios/BCLankford.md";
     const svKing = "/MarkdownData/PMData/Bios/svking.md";
     const waGnash = "/MarkdownData/PMData/Bios/WAGash.md";
     const tsWood = "/MarkdownData/PMData/Bios/TSWood.md";
     const emAllison = "/MarkdownData/PMData/Bios/EmAllison.md";
-    const jhLanning = "/MarkdownData/PMData/Bios/JHLanning.md"
+    const jhLanning = "/MarkdownData/PMData/Bios/JHLanning.md";
+    const thGalloway = "/MarkdownData/PMData/Bios/THGalloway.md";
   
     const pastMastersArray = [
       {
@@ -96,6 +97,12 @@ const Pastmasters = () => {
         imageSrc: "/MarkdownData/PMData/PMImgs/tswood.jpg",
         customNumber: 6,
       },
+      {
+        markdownFile: thGalloway,
+        fileName: "T.H Galloway 1895 - 1896",
+        imageSrc: "/MarkdownData/PMData/PMImgs/thgalloway.jpg",
+        customNumber: 9,
+      }
     ];
 
   const [isReversed, setIsReversed] = useState(false);

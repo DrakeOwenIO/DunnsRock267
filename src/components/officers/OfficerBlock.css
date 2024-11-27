@@ -1,0 +1,29 @@
+.officer-block {
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 50%; /* Optional: Adjust width */
+    color: #908d96;
+}
+
+.year {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #908d96;
+    margin: 0.5rem 0;
+}
+
+.officer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.officer-item {
+    font-size: 1.5rem;
+    margin: 0.25rem 0;
+}
+
