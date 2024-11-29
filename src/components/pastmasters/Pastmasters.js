@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import ExpandableBox from "../helper/ExpandableBox";
 import TopBar from "../homepage/header/TopBar";
 import "./Pastmasters.css";
-import AcsSortImg from "../../imgs/acs_sort_icon.png";
-import DesSortImg from "../../imgs/des_sort_icon.png";
-
+import SortButton from "../helper/SortButton";
 
 const Pastmasters = () => {
 
@@ -105,35 +103,25 @@ const Pastmasters = () => {
       }
     ];
 
-  const [isReversed, setIsReversed] = useState(false);
+    const [isReversed, setIsReversed] = useState(false);
 
-  const toggleSortOrder = () => {
-    setIsReversed((prev) => !prev);
-  };
-
-  const displayOrder = isReversed
-    ? [...pastMastersArray].reverse() // Reverse the original order
-    : pastMastersArray; // Keep the original order
+    // Toggle the sort order state
+    const toggleSortOrder = () => {
+      setIsReversed((prev) => !prev);
+    };
+  
+    // Sort the array based on the state
+    const displayOrder = isReversed
+      ? [...pastMastersArray].reverse() // Reverse the array
+      : pastMastersArray; // Original order
 
   return (
     <div className="PMContainer">
       <TopBar />
-      <div className="sort-button-container" onClick={toggleSortOrder}>
-        <img
-          src={
-            isReversed
-              ? AcsSortImg 
-              : DesSortImg
-          }
-          alt={
-            isReversed
-              ? "Sort Oldest to Most Current"
-              : "Sort Most Current to Oldest"
-          }
-          className="sort-button-image"
-        />
-        <div className="sort-text">Sort</div>
-      </div>
+      <SortButton
+        toggleSortOrder={toggleSortOrder}
+        isReversed={isReversed}
+      />
       <div className="PMListContainer">
         <ol className="PMList">
           <div className="PMBoxes">
