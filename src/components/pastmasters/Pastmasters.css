@@ -6,13 +6,6 @@
   width: 100%;
 }
 
-.custom-number {
-  display: flex;
-  align-items: center;
-  margin-right: 0.5rem; /* Adjust space between the number and the expandable box */
-  font-weight: bold;
-}
-
 .custom-list-item {
   display: flex;
   align-items: center; /* Align custom number and expandable box vertically */
@@ -20,7 +13,6 @@
 }
 
 .custom-number {
-  margin-right: 1rem; /* Adjust the space between the number and the expandable box */
   font-weight: bold;
   font-size: 1.2rem;
 }
