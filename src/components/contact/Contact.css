@@ -12,3 +12,19 @@
     flex-direction: column;
     align-items: center;
 }
+
+.SocialBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SocialBlock img {
+    height: 50px;
+    width: 50px;
+}
+
+.SocialBlock a {
+    padding-right: 3%;
+}
+

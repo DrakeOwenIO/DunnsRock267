@@ -6,6 +6,8 @@ import Officers from "./components/officers/Officers";
 import Pastmasters from "./components/pastmasters/Pastmasters";
 import Photogallery from "./components/photogallery/Photogallery";
 import Contact from "./components/contact/Contact";
+import Readings from "./components/readings/Readings";
+import Events from "./components/events/Events";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route path="/pastmasters" element={<Pastmasters />} />
         <Route path="/photogallery" element={<Photogallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/readings" element={<Readings />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
     </Router>
   );
